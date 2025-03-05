@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1280" height="640" fill="#F8FAFC"/>
+    <rect x="240" y="120" width="800" height="400" rx="24" fill="white" filter="url(#shadow)"/>
+    <g transform="translate(280,160)">
+        <rect width="720" height="320" rx="16" fill="#F1F5F9"/>
+        <g transform="translate(520,40)">
+            <rect width="160" height="160" rx="12" fill="url(#grad)"/>
+            <path d="M560 80h28v28h-28V80zm8 8v12h12V88h-12zm-8 36h28v28h-28v-28zm8 8v12h12v-12h-12zm44-52h28v28h-28V80zm8 8v12h12V88h-12zm8 52h8v12h-8v-12zm-8-8h24v28h-8v-12h-16v-16z" fill="white"/>
+        </g>
+    </g>
+    <text x="640" y="540" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#0F172A">Website QR Code</text>
+    <text x="640" y="580" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B">一键生成网页二维码，支持深色模式</text>
+    <defs>
+        <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#6366F1"/>
+            <stop offset="100%" stop-color="#4F46E5"/>
+        </linearGradient>
+        <filter id="shadow" x="-4" y="-4" width="808" height="408" filterUnits="userSpaceOnUse">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+            <feOffset dy="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+            <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+    </defs>
+</svg> 
